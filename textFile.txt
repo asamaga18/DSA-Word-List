@@ -1,0 +1,65 @@
+home
+plod
+Testing, will these words be registered?
+
+^empty line above
+123456
+r2d2
+0
+00
+000
+00
+0
+
+can't
+won't
+''''''''''''''''''''
+
+##&%)@(*#^%@#)(!#%)_%*(@#%^@#%*(#)
+% * ^ % $
+1 2 3 4 5 6 7 8 9 0
+0 9 8 7 6 5 4 3 2 1
+
+=
+
+Data Structures Lab Assignment
+Hashing and Searching, Part II
+
+Objective:
+Read in a document and determine which words are not in a dictionary.
+
+First, your program will read a dictionary file and store it in a hash table of size 197 (a prime number). The file can be found HERE. It is already loaded into your repl.
+
+Your hashing function should go by ASCII values (of uppercase letters) and should follow these rules.
+They key will be:
+	• the first letter, if the length is only one character.
+	• the product of the first and second letters, if the length is 2, 3, or 4 characters.
+	• the product of the first, second, and third-to-last letters, if the length is 5 or larger.
+The hash value will be key % 197.
+
+Next, your program will read a text file, and compare each word to the dictionary file that is stored in your hash table. It will print out a list of the words that are not in your dictionary file.
+
+Example:
+If your file said:
+The rain in Spain falls mainly on the plane.
+
+Your program’s output would be:
+Words not found:
+Spain
+falls
+mainly
+
+Your program should not print out the same word more than once. So, you’ll need to keep track of which words have been found to be absent from the dictionary. You might want to store those into another data structure (perhaps another hash table?).
+
+When reading from your text file, you should ignore punctuation, but you should not ignore apostrophes, as some words in the dictionary have them.
+
+repeat1
+repeat1
+
+/
+
+plant'@#!$^%&*(&)*&^%$#@!$%^&*(&)
+p%^&*l(*&^%a(*&^%n(*&^%t)))
+
+empty line below 
+    
